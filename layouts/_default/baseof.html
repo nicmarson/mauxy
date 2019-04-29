@@ -1,0 +1,11 @@
+<!-- This is around all content of every page, except for the index page -->
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ $style := resources.Get "style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }} 
+        <link rel="stylesheet" type="text/css" href="{{ $style }}">
+    </head>
+    <body>    
+        {{- block "main" . }}{{- end }}
+    </body>
+</html>
