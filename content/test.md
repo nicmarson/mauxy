@@ -4,7 +4,7 @@ title: "Test"
 
 # Directory Index
 
-{{< directoryindex path="/data/scss" pathURL="/data/scss" >}}
+{{< directoryindex path="/scss" pathURL="/" >}}
 
 # This file =
 
@@ -15,5 +15,5 @@ title: "Test"
 ## Colors are nice
 
 <style>
-  {{< readfile file="/data/scss/title.scss" >}}
+  {{< readfile file="/scss/title.scss" >}}
 </style>

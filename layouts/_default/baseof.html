@@ -3,7 +3,7 @@
 <html>
     <head>
         {{ $style := resources.Get "style.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }} 
-        <link rel="stylesheet" type="text/css" href="{{ $style }}">
+        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
     </head>
     <body>    
         {{- block "main" . }}{{- end }}
