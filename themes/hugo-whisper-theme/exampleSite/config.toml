@@ -1,10 +1,7 @@
-baseURL = "www.mauxy.org"
+baseURL = "www.example.com"
 languageCode = "en-us"
-languageName = "English"
-title = "Mauxy - Pattern Library"
-assetDir = "assets"
-staticDir = "static"
-themesDir = "themes"
+title = "Hugo Whisper Theme"
+themesDir = "../.."
 theme = "hugo-whisper-theme"
 
 pygmentsCodeFences = true
